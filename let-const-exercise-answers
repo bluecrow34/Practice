@@ -1,0 +1,11 @@
+- What is the difference between ***var*** and ***let***?
+  A: They are similair but are different because you can't redeclare let but you can with var.
+
+- What is the difference between **var** and ***const***?
+  A: With var you can redeclare and reassign but you can't do that with const.
+
+- What is the difference between **let** and **const**?
+  A: You can reassign let but you can't do the same with const. 
+
+- What is hoisting?
+  A: Its a mechanism that moves variables and function declarations to the top of their scope
