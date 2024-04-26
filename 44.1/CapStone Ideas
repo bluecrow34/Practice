@@ -1,0 +1,42 @@
+Idea 1:
+Applicant tracking system
+Applicant can sign up (jwts)
+Store the password as a hash (use built-in library), not as plain text in your database
+They can fill out a form mentioning their preferred position, their tech stack, etc
+On the backend, we write an api endpoint for signup
+We persist all the data to a database
+List of open jobs (put some dummy job details in the details). We don’t need functionality to apply for jobs.
+
+Recruiter can also signup/login
+Recruiter sees a list of job seekers
+Recruiter can filter based in different fields
+
+		Schema of ATS System
+
+Users (name, email, userRole (enum: Applicant or a Recruiter))
+Jobs (job title, location, pay, description)
+
+Example query for listing job seekers:
+
+Select * from Users where role = ‘Applicant’
+
+
+
+
+
+
+
+
+
+
+	Idea 2:
+NFL player comparison
+Compares stats of offensive players in the NFL (Pass, Rushing, Receiving, etc)
+Can select 2 players from director and press submit to populate players stats, bolds stat line that is greater of the 2 stats
+
+
+Idea 3:
+Dog database
+Can access and search through dog breeds
+Create a sign/login to access database
+Can rate and leave comments on the dog breeds
